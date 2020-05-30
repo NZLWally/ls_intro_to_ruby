@@ -7,9 +7,9 @@ colors = 'blue pink yellow orange'
 # true
 # false
 
-puts colors.include?("yellow")
+puts colors.split(" ").include?("yellow")
 
-if colors.include?("purple")
+if colors.split(" ").include?("purple")
   puts "true"
 else
   puts "false"
@@ -24,3 +24,5 @@ puts colors.include?('red')
 # What will the output be? Why?
 
 # Will output true because the string 'red' is included within the word "boredom"
+
+puts colors.split(" ").include?('red') # would output false
