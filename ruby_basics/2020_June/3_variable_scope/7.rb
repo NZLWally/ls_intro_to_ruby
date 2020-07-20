@@ -9,3 +9,5 @@ end
 
 puts a
 
+# the block inner scope has access to the outerscope variable a. Therefore, on each iteration of the array elements a is reassigned to the value of the element.
+# a = the last element in the array, `3`

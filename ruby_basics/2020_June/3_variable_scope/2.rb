@@ -10,7 +10,7 @@ my_value(a)
 puts a
 
 # Reassignment, including operators like `+=`, does not mutate a variable. Reassignment binds the parameter `a` to a new object `17`
-# In this case, the parameter `a` is not the same as variable `a` even though they have the same name. The parameter shadows the variable name.
+# In this case, the parameter `a` is not the same as variable `a` even though they have the same name.
 # `a` within the method is reassigned to `17`, while the original variable `a` is unchanged.
 # `a` still equals `7`.
 

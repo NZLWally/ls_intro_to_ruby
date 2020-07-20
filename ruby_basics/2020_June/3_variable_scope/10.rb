@@ -11,3 +11,6 @@ end
 
 my_value(array)
 puts a
+# NoMethodError  undefined method '+' for nil:NilClass
+
+# block local variable a is not initialised on the first iteration of the array. Therefore, a is nil and adding b will raise an exception

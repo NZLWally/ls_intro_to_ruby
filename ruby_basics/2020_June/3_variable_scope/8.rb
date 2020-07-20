@@ -7,3 +7,6 @@ array.each do |element|
 end
 
 puts a
+
+# variable `a` is initialised within the each block. Inner scope can access variables in outer scope but not vice versa.
+# Therefore, `puts a` will result in a NameError undefined local variable or method
