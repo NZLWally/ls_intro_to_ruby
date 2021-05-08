@@ -17,5 +17,5 @@ y = 0
 end
 puts x
 
-# y is initialised in the outerscope while x is initialised in the times method inner scope. Therefore, y can be reassigned within the method and x can be initialised then re-assigned as the method loops.
+# y is initialised in the outerscope while x is initialised in the times method block inner scope. Therefore, y can be reassigned within the method and x can be initialised then re-assigned as the method loops.
 # x is not available in the outerscope, so 'puts x' will raise a NameError: undefined local variable or method 'x'.
